@@ -36,7 +36,7 @@ def saveEmployee():
     # postion = request.form['form_postion']
     # basicsalary = request.form['form_basicsalary']
     # dob = request.form['form_dob']
-
+# decalre all the varibales kama hapa juu then in the employee.create enter just the varibale names
     Employee.create(name= request.form['form_name'], kra = request.form['form_kra'], houseallowance= request.form['form_houseallowance'],
                     department=request.form['form_department'], postion=request.form['form_postion'],
                     basicsalary= request.form['form_basicsalary'], dob= request.form['form_dob'])

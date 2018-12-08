@@ -1,7 +1,7 @@
 from peewee import *
 
 try:
-    db = PostgresqlDatabase('payrollSystem', user= 'postgres', host= 'localhost', password= 'Stima101')
+    db = PostgresqlDatabase('d5nesjke3clh9t', user= 'ofzbhyirapbzzn', host= 'ec2-54-235-133-42.compute-1.amazonaws.com', password= 'f619025b408cde3e3a4fe60d85c5ccf15e0fd7ad510b1bfefc7d82dd7ee49be4')
     print ('connection success')
 except:
     print ('connection fail')
