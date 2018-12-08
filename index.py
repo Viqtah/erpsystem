@@ -7,6 +7,8 @@ from Payrollcalc import Payrollcalc
 
 app = Flask(__name__)
 
+x=2
+
 #create- POST, Read- GET, Update- POST, Delete- GET
 
 @app.route("/")
