@@ -1,1 +1,1 @@
-web: gunicorn viqtah:app
+web: gunicorn index:app
